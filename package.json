@@ -1,0 +1,23 @@
+{
+  "name": "random-num-msgs",
+  "version": "1.0.0",
+  "description": "Random Number messages",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Gemma Clavero <casagemmayraul@yahoo.es>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GemmaClaverodelMoral/random-num-msgs.git"
+  },
+  "bin": {
+    "random-num-msgs": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "g": "^2.0.1"
+  }
+}
